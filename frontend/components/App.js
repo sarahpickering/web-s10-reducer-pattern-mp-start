@@ -94,6 +94,7 @@ export default function App() {
       <Quotes
         quotes={state.quotes}
         highlightedQuote={state.highlightedQuote}
+        displayAllQuotes={state.displayAllQuotes}
         editQuoteAuthenticity={editQuoteAuthenticity}
         setHighlightedQuote={setHighlightedQuote}
         toggleVisibility={toggleVisibility}
